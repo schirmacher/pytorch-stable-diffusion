@@ -22,3 +22,11 @@ Special thanks to the following repositories:
 1. https://github.com/kjsman/stable-diffusion-pytorch
 1. https://github.com/huggingface/diffusers/
 
+## Run locally
+
+Install all required modules, then run sd/demo.py. If you have a GPU with > 10 GByte VRAM, 
+set ALLOW_CUDA=True . 
+
+## Run on Google Colab
+
+Upload sd/demo_colab.ipynb to Google Colab. Enable T4 GPU, set ALLOW_CUDA=True . 
